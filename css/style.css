@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.banner .spa-img {
+    width: 43.4%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
