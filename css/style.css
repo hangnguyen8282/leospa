@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'OpenSans-Regular';
-    src: url(fonts/OpenSans-Regular.ttf) format('truetype');
+    src: url("fonts/OpenSans-Regular.ttf") format('truetype');
 }
 
 .leospa {
@@ -40,7 +40,7 @@
 }
 
 .banner {
-    background: url(../images/banner/leaf.png) no-repeat left;
+    background: url("../images/banner/leaf.png") no-repeat left;
     padding: 9% 0;
     background-position-x: -168px;
 }
@@ -108,7 +108,7 @@
 }
 
 .about {
-    background: url(../images/about/jasmine.png) no-repeat right center;
+    background: url("../images/about/jasmine.png") no-repeat right center;
     background-size: 5%;
 }
 .about .container {
@@ -228,6 +228,11 @@
     margin: 1.5%;
     border: 1px solid #eeeeee ;
     padding-bottom: 4%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.producedure .container .d-inline-flex.p-3.bg-secondary .p2:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 .producedure .container .d-inline-flex.p-3.bg-secondary .p2:hover .btn.btn-danger {
     background-color: #ff817e;
@@ -262,4 +267,39 @@
     height: 40px;
     margin-top: 10%;
     text-transform: uppercase;
+}
+.testimonial {
+    background: #fff5f5;
+    margin-top: 7%;
+}
+.testimonial .container {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-top: 8%;
+}
+.testimonial .container .quote-img {
+    padding-bottom: 5%;
+}
+.testimonial .container .quote-text {
+    font-size: 14px;
+    padding: 0px 80px 10px 80px;
+}
+.testimonial .container .author-quote {
+    display: block;
+    padding-bottom: 5%;
+}
+.testimonial .container .author-quote .author-quote-name {
+    font-weight: bold;
+}
+.testimonial .container .pagination {
+    padding-left: 45%;
+    padding-bottom: 5%;
+
+}
+.testimonial .container .pagination a img {
+    padding: 5px;
+}
+.testimonial .container .pagination a:hover {
+    background: url("../images/testimonials/pag-hover.png") no-repeat center;
 }
