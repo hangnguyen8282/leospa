@@ -1,10 +1,168 @@
-*{
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(fonts/OpenSans-Regular.ttf) format('truetype');
 }
-.banner .spa-img {
-    width: 43.4%;
+
+.leospa {
+    background: url("../images/banner/spa-banner.png") no-repeat right top;
+    background-size: 39.1%;
+}
+.header .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+}
+.header .row .col-4 {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 147px;
+}
+.header .row .col-4 .logo-icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    left: 162px;
+    top: 1px;
+}
+.header .row .col-4 .logo-img {
+    position: absolute;
+    top: 50px;
+    width: 90px;
+}
+.header .nav {
+    padding-top: 44px;
+}
+.header .nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+}
+.header .col-8 .nav .nav-items .nav-link:hover {
+    color: rgb(255, 147, 147);
+}
+
+.banner {
+    background: url(../images/banner/leaf.png) no-repeat left;
+    padding: 9% 0;
+    background-position-x: -168px;
+}
+.banner .container .row .col-7 {
+    padding-left: 145px;
+}
+.banner span {
+    font-family: 'OpenSans-Regular';
+    text-transform: uppercase;
+    color: #ff817e;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+.banner h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    
+}
+.banner p {
+    font-size: 13.5px;
+    padding-right: 45px;
+}
+.banner .video {
+    padding-top: 40px;
+}
+.banner .video .btn.btn-danger {
+    background-color: #ff817e;
+    border: none;
+    height: 40px;
+    text-align: justify;
+    margin-right: 30px;
+    border-radius: 0;
+
+}
+.banner .video .btn.btn-danger:hover {
+    color: black;
+}
+.banner .video .btn.btn-danger .fas.fa-arrow-right{
+    padding-left: 10px;
+}
+.banner .video .icon-watch-video {
+    display: inline;
+    position: relative;
+    font-family: 'OpenSans-Regular';
+}
+.banner .video .icon-watch-video .triagle-img {
+    position: absolute;
+    left: 24px;
+    top: 5px;
+}
+.banner .video .link-video .watch-text{
+    display: inline;
+    color: black;
+    font-size: 13.5px;
+    text-transform: initial;
+    letter-spacing: 0px;
+}
+.banner .video .link-video:hover{
+    text-decoration: none;
+}
+.banner .video .link-video .watch-text:hover{
+    color: #ff817e;
+}
+
+.about {
+    background: url(../images/about/jasmine.png) no-repeat right center;
+    background-size: 5%;
+}
+.about .container {
+    padding-left: 130px;
+}
+.about .china-flower-img {
+    display: block;
+    height: 80px;
+}
+.about .butterfly-img {
+    display: block;
+    padding-left: 42%;
+    height: 55px;
+}
+.about .title-about {
+    text-transform: uppercase;
+    color: #737373;
+    padding-left: 36%;
+    padding-top: 2%;
+    line-height: 0.8;
+}
+.about h2 {
+    padding-left: 23%;
+    padding-top: 2%;
+}
+.about p {
+    padding: 3% 16% 5% 3%;
+    font-size: 13.5px;
+    text-align: center;
+}
+.about .btn.btn-danger {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 36%;
+    border-radius: 50px;
+    background-color: #ff817e;
+    border: 1px transparent;
+    width: 166px;
+    height: 46px;
+    padding: 11px;
+}
+.about .btn.btn-danger:hover {
+    color: black;
+}
+
+.service {
+    padding-top: 7%;
+    padding-bottom: 6%;
+}
+.service .d-inline-flex.p-4.bg-secondary {
+    padding: 0px !important;
+    background-color: none !important;
+}
+.service .d-inline-flex.p-4.bg-secondary .p2 img{
+    padding: 3px;
+    width: 337px;
 }
