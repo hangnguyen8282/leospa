@@ -2,7 +2,26 @@
     font-family: 'OpenSans-Regular';
     src: url("fonts/OpenSans-Regular.ttf") format('truetype');
 }
-
+@font-face {
+    font-family: 'facebook-icon';
+    src: url("/icons/facebook.svg") format('svg');
+}
+@font-face {
+    font-family: 'google-icon';
+    src: url("/icons/google-plus.svg") format('svg');
+}
+@font-face {
+    font-family: 'instagram-icon';
+    src: url("/icons/instagram.svg") format('svg');
+}
+@font-face {
+    font-family: 'right-arrow-icon';
+    src: url("/icons/right-arrow.svg") format('svg');
+}
+@font-face {
+    font-family: 'twitter-icon';
+    src: url("/icons/twitter.svg") format('svg');
+}
 .leospa {
     background: url("../images/banner/spa-banner.png") no-repeat right top;
     background-size: 39.1%;
@@ -75,13 +94,13 @@
     text-align: justify;
     margin-right: 30px;
     border-radius: 0;
-
 }
 .banner .video .btn.btn-danger:hover {
     color: black;
 }
 .banner .video .btn.btn-danger .fas.fa-arrow-right{
     padding-left: 10px;
+    font-family: 'right-arrow-icon' !important;
 }
 .banner .video .icon-watch-video {
     display: inline;
@@ -160,7 +179,7 @@
 }
 .service .d-inline-flex.p-4 {
     padding: 0px !important;
-    background-color: none !important !important;
+    background-color: none !important;
 }
 .service .d-inline-flex.p-4 .p2 {
     position: relative;
