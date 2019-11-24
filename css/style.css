@@ -391,7 +391,14 @@
 .appointment{
     background: #fff5f5;
 }
-.appointment .row .col-5 {
+.appointment .row .col-5 img {
+    width: 574px;
 }
-.appointment .row .col-7 {
+.appointment .row .col-7 .container .row .col-12 {
+    background-color: #ff817e;
+    border: 0px;
+    border-radius: 17px;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
 }
