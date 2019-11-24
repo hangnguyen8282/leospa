@@ -2,26 +2,6 @@
     font-family: 'OpenSans-Regular';
     src: url("fonts/OpenSans-Regular.ttf") format('truetype');
 }
-@font-face {
-    font-family: 'facebook-icon';
-    src: url("/icons/facebook.svg") format('svg');
-}
-@font-face {
-    font-family: 'google-icon';
-    src: url("/icons/google-plus.svg") format('svg');
-}
-@font-face {
-    font-family: 'instagram-icon';
-    src: url("/icons/instagram.svg") format('svg');
-}
-@font-face {
-    font-family: 'right-arrow-icon';
-    src: url("/icons/right-arrow.svg") format('svg');
-}
-@font-face {
-    font-family: 'twitter-icon';
-    src: url("/icons/twitter.svg") format('svg');
-}
 .leospa {
     background: url("../images/banner/spa-banner.png") no-repeat right top;
     background-size: 39.1%;
@@ -327,6 +307,9 @@
     background-color: rgb(250, 107, 131);
 }
 
+.team .container {
+    padding-bottom: 15%;
+}
 .team .container h2{
     text-align: center;
     padding-bottom: 3%;
@@ -347,8 +330,33 @@
     margin: 1.5%;
     padding-bottom: 4%;
 }
-.team .container .d-inline-flex.p-3 .p2 .test {
+.team .container .d-inline-flex.p-3 .p2 .single-team {
     position: relative;
+}
+.team .container .d-inline-flex.p-3 .p2 .single-team:hover .info-team {
+    opacity: 1;
+    transition: .3s ease;
+    padding-bottom: 6%;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 11%;
+    top: 79%;
+    margin-top: -5%;
+}
+.team .container .d-inline-flex.p-3 .p2 .single-team:hover .info-team .icon-social {
+    opacity: 1;
+    padding-top: 20px;
+}
+.team .container .d-inline-flex.p-3 .p2 .single-team:hover .info-team .icon-social .social{
+    background: #eeeeee;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.team .container .d-inline-flex.p-3 .p2 .single-team:hover .info-team .icon-social .social:hover{
+    background: pink;
 }
 .team .container .d-inline-flex.p-3 .p2 .img-team {
     width: 327px;
@@ -357,9 +365,12 @@
     position: absolute;
     background: white;
     text-align: center;
-    top: 87.5%;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 8%;
+    top: 89%;
     left: 10%;
-    padding: 8% 21% 8% 21%;
+    padding-bottom: 2%;
 }
 .team .container .d-inline-flex.p-3 .p2 .info-team .info-team-name{
     font-size: 20px;
@@ -369,4 +380,18 @@
     font-size: 15px;
     text-align: center;
     color: #9a9a9a;
+}
+.team .container .d-inline-flex.p-3 .p2 .info-team .icon-social {
+    opacity: 0;
+}
+.team .container .d-inline-flex.p-3 .p2 .info-team .icon-social .social:hover {
+    background-color: #ff817e;
+}
+
+.appointment{
+    background: #fff5f5;
+}
+.appointment .row .col-5 {
+}
+.appointment .row .col-7 {
 }
