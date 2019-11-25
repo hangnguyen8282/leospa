@@ -442,10 +442,150 @@
     color: black;
     box-shadow: 0 5px 15px rgba(232, 111, 111, 0.8);
 }
-/* Style for blog */
-.producedure .container .d-inline-flex.p-3 .p2 .type-blog {
-    
-}
-.producedure .container .d-inline-flex.p-3 .p2 .date-blog {
 
+/* Style for blog */
+.producedure .container .d-inline-flex.p-3 {
+    padding-top: 10%;
+}
+.producedure .container .d-inline-flex.p-3 .p2 .date-type {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #b3a8a8;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Style for contact */
+.contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.contact .producedure .container .row {
+    padding-top: 5%;
+}
+.contact .producedure .container .row .col-4 .row .col-8 .text-single-contact {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 14px;
+}
+.contact .producedure .container .row .col-4 .row {
+    padding-bottom: 20px;
+}
+.contact .producedure .container .row .col-4 .row .col-4 {
+    text-align: right;
+    padding-left: 5%;
+}
+.contact .producedure .container .row .col-4 .row .col-4 .location {
+    background: #ff817e;    
+    width: 42px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 28px;
+}
+.contact .producedure .container .row .col-4 .row .col-4 .mail {
+    background: #ff817e;
+    width: 40px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 24px;
+    height: 40px;
+}
+.contact .producedure .container .row .col-4 .row .col-4 .phone {
+    background: #ff817e;
+    width: 40px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 24px;
+    height: 40px;
+}
+.contact .producedure .container .row .col-6 {
+    padding-left: 20%;
+}
+.contact .producedure .container .row .col-6 .input-type{
+    display: flex;
+    border: none;
+    width: 500px;
+    height: 60px;
+}
+.contact .producedure .container .row .col-6 .input-type:focus {
+    outline: none;
+}
+.contact .producedure .container .row .col-6 .submit-button {
+    margin-top: 70px;
+    border: 0;
+    background: rgb(255, 129, 126);
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    box-shadow: 0 1px 2px rgba(232, 111, 111, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+.contact .producedure .container .row .col-6 .submit-button:hover {
+    transition: 0.3s ease;
+    color: black;
+    box-shadow: 0 5px 15px rgba(232, 111, 111, 0.8);
+}
+
+.footer-section {
+    background: #fff5f5;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+.footer-section .logo {
+    position: relative;
+    margin-bottom: 4%;
+}
+.footer-section .logo .logo-icon {
+    position: absolute;
+    left: 50%;
+}
+.footer-section .logo .logo-img {
+    position: absolute;
+    top: 50px;
+    width: 90px;
+    left: 49%;
+    padding-top: 10px;
+}
+.footer-section .nav {
+    margin-top: 6%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer-section .nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+}
+.footer-section .nav .nav-items .nav-link:hover {
+    color: rgb(255, 147, 147);
+}
+.footer-section .icon-footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-section .icon-footer .social {
+    color: black;
+    width: 20px;
+    height: 30px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.footer-section .icon-footer a:hover {
+    text-decoration-line: none;
+    color: rgb(250, 112, 135);
+}
+.footer-section .text-end {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.footer-section .text-end .link-end {
+    text-transform: uppercase;
+    color: rgb(250, 112, 135);
 }
