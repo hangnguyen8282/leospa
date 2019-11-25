@@ -3,7 +3,7 @@
     src: url("fonts/OpenSans-Regular.ttf") format('truetype');
 }
 .leospa {
-    background: url("../images/banner/spa.png") no-repeat right top;
+    background: url("./../images/banner/spa.png") no-repeat right top;
     background-size: 39.1%;
 }
 .header .logo {
@@ -40,7 +40,7 @@
 }
 
 .banner {
-    background: url("../images/banner/leaf.png") no-repeat left;
+    background: url("./../images/banner/leaf.png") no-repeat left;
     padding: 9% 0;
     background-position-x: -168px;
 }
@@ -113,7 +113,7 @@
 }
 
 .about {
-    background: url("../images/about/jasmine.png") no-repeat right center;
+    background: url("./../images/about/jasmine.png") no-repeat right center;
     background-size: 5%;
 }
 .about .container {
