@@ -3,7 +3,7 @@
     src: url("fonts/OpenSans-Regular.ttf") format('truetype');
 }
 .leospa {
-    background: url("../images/banner/spa-banner.png") no-repeat right top;
+    background: url("../images/banner/spa.png") no-repeat right top;
     background-size: 39.1%;
 }
 .header .logo {
@@ -319,7 +319,7 @@
     background-color: #ffc3c2;
 }
 .testimonial .container .pagination .icon-pag:hover {
-    background-color: ff817e;
+    background-color: #ff817e;
 }
 
 .team .container {
@@ -373,7 +373,7 @@
     background: #eeeeee;
 }
 .team .container .d-inline-flex.p-3 .p2 .single-team:hover .info-team .icon-social i:hover {
-    background: ff817e;
+    background: #ff817e;
 }
 .team .container .d-inline-flex.p-3 .p2 .img-team {
     width: 327px;
@@ -428,10 +428,14 @@
     background-color: inherit;
     border: none;
     border-bottom: 1px solid;
-    border-bottom-color: #263a41;
+    border-bottom-color: #dadada !important;
     padding: 7px;
     margin: 10px;
     width: 80%;
+}
+.appointment .row .col-7 .container .input-type.style-selection {
+    color: #757575; 
+    padding-left: 2px;
 }
 .appointment .row .col-7 .container .input-type:focus {
     outline: none;
@@ -562,7 +566,7 @@
     padding-top: 10px;
 }
 .footer-section .nav {
-    margin-top: 6%;
+    margin-top: 8%;
     text-align: center;
     display: flex;
     justify-content: center;
