@@ -596,13 +596,3 @@
     text-decoration-line: none;
     color: #ff817e;
 }
-.footer-section .text-end {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-.footer-section .text-end .link-end {
-    text-transform: uppercase;
-    color: #ff817e;
-}
